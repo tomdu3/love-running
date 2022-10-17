@@ -296,7 +296,7 @@ footer {
 }
 
 /* For medium to medum screens size from 950px wide and down */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 950px) {
     #menu {
         clear: left;
         float: left;
@@ -332,4 +332,14 @@ footer {
         padding: 20px;
     }
 
+    #photos {
+        column-count: 3;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    #photos {
+        column-count: 2;
+    }
 }
